@@ -32,7 +32,7 @@ public class MainExample extends Application {
         Hyperlink hpl = new Hyperlink("java2s.com");
         hpl.setOnAction(new EventHandler<ActionEvent>() {
           @Override public void handle(ActionEvent e) {
-              webEngine.load("http://www.basketball-reference.com/boxscores/index.cgi?month=3&day=10&year=2016");
+              webEngine.load("");
           }
           
         });
